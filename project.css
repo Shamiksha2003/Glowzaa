@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.nav {
+    text-align: end;
+    background-color: rgb(226, 132, 171);
+    height: 50px;
+    width: 100%;
+}
+.six h1{
+    background-color: rgb(226, 132, 171);
+    text-align: center;
+    font-size:x-large;
+
+}
+.six img{
+    padding: 20px;
+    height: 30%;
+    width: 30%;
+}
+.seven img{
+    height: 200px;
+    width: 200px;
+    float: calc();
+    
+}
+
+
+.seven h1{
+    text-align: center;
+}
+.seven{
+    background-color: rgb(231, 154, 190);
+    color: #080808;
+    text-align: center;
+    padding: 0%;
+    margin:5px;
+
+}
+
+
+
+.seven{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.seven h2{
+    font-size: medium;
+
+}
+.rate{
+    letter-spacing: 1px;
+    background-color:rgb(226, 132, 171);
+    text-align: center;
+    font-size:x-large;
+
+}
+.name {
+    text-align: end;
+    background-color:  rgb(226, 132, 171);
+    letter-spacing: 3px;    
+
+}
+.item1 a{
+   justify-content: space-evenly;
+   height: 40%;
+   width: 100%;
+   text-align: center;
+   padding: 5px;
+   letter-spacing: 2px;
+   word-spacing: 100%;
+   line-height: 0.1;
+   white-space: no wrap;
+   font-size:large;
+   font-weight: 100;
+}
+.item1 button{
+    justify-items: end;
+    
+}
+.eight{
+    letter-spacing: 1px;
+    display: flex;
+    font-size:large;
+    font-family:'Times New Roman', Times, serif;
+    justify-content:space-evenly;
+    background-color: rgba(58, 56, 56, 0.212);
+    color: black;
+    text-align: center;
+    margin:2px;
+    text-align: justify;
+}
+.nine{
+    display: flex;
+    font-size: small;
+    letter-spacing: 3px;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: rgb(226, 132, 171);
+}
+.terms{
+    background-color: rgb(218, 118, 171);
+    color:white;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-family:'Times New Roman', Times, serif;
+    font-size: xx-small;
+
+    
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .startimg h4{
+    background-color: rgb(226, 132, 171);
+    font: 100;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    letter-spacing: 1px;
+    
+  }
+  #img{
+    background-image: url("https://images-static.nykaa.com/uploads/ed3cb5d0-363b-4dc6-984d-c16d7b76b63b.jpg?tr=cm-pad_resize,w-1200");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-color: red; */
+    width: 100%;
+    height: 300px;
+  }
+#small{
+    font-size:200%;
+    color: white;
+    text-indent: 0%;
+    justify-content: space-evenly;
+    display: flex;
+    align-items:center;
+}
